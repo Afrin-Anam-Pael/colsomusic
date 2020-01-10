@@ -1,0 +1,384 @@
+
+/*
+
+Author Name:Afrin Anam Pael;
+Mail Address:afrinanampayel@gmail.com;
+website link:;
+
+*/
+
+
+/*
+
+=====index====
+1.header
+2.Home
+3.About Us
+4.Services
+6.Prices
+7.footer
+
+*/
+
+/*Global css*/
+
+body{
+	font-family: 'Lato', sans-serif;
+
+}
+h1{
+
+color: white;
+font-weight: bold;
+font-size: 40px;
+}
+h4{
+color: white;
+font-weight: bold;
+font-size: 22px;
+
+}
+h2{
+
+color: white;
+font-weight: bold;
+font-size: 30px;
+}
+p{
+
+font-size:14px ;
+color:#2a5da3;
+
+}
+/*theme css*/
+header{
+
+	background-color: #0a2345;
+	padding: 10px 0px;
+	
+}
+
+
+/* Icon 1 */
+
+
+.animated-icon1, .animated-icon2, .animated-icon3 {
+width: 30px;
+height: 20px;
+position: relative;
+margin: 0px;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+}
+
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+display: block;
+position: absolute;
+height: 3px;
+width: 100%;
+border-radius: 9px;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .25s ease-in-out;
+-moz-transition: .25s ease-in-out;
+-o-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+background:#2a5ea4;
+}
+
+.animated-icon2 span {
+background: #e3f2fd;
+}
+
+.animated-icon3 span {
+background: #f3e5f5;
+}
+
+.animated-icon1 span:nth-child(1) {
+top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+top: 11px;
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+opacity: 0;
+left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+top: 11px;
+-webkit-transform: rotate(-135deg);
+-moz-transform: rotate(-135deg);
+-o-transform: rotate(-135deg);
+transform: rotate(-135deg);
+}
+
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+    background-color: #0a2345;
+    color: white;
+    padding: 10px 6px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+ 
+    color: white;
+    font-weight: bold;
+}
+/*header part end*/
+/*hero section start*/
+.hero{
+
+background-color:  #0a2345;
+padding:80px 0px;
+text-align: center;
+
+}
+.header-til{
+
+padding-top: 100px;
+
+}
+.btn1{
+
+	background:transparent;
+	color:white;
+	border-color: #2a5da3;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+/*hero section end*/
+/*phone section sart*/
+.phone{
+
+	background:url(../img/bg.png)no-repeat top center;
+	background-size: cover;
+	padding: 10px 0px; 
+}
+/*phone section end*/
+/*headphn section sart*/
+.headphn{
+
+	background-color: #0a2345;
+}
+.htext p{
+
+	padding-right: 60px;
+
+
+}
+.htext h1{
+
+	padding-top: 100px !important;
+}
+/*headphn section end*/
+/*feature section start*/
+.feature{
+
+	background-color:#0a2345;
+	padding: 20px 0px;
+}
+.fet{
+
+margin-top:150px; 
+}
+.ftp{
+
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*feature section end*/
+/*power section start*/
+.power{
+     padding: 100px 0px;
+	background-color:#07162c ;
+}
+.prt{
+
+  margin-top: 150px;
+}
+
+/*power section end*/
+.info{
+
+	background:url(../img/bg2.png)no-repeat top center;
+	background-size:cover;
+	padding: 50px;
+	text-align: center;
+}
+.int{
+
+	font-size: 18px;
+}
+.pht{
+
+	background-color:#030913;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+footer{
+
+	padding:20px 0px;
+}
+.er{
+
+	text-align: right;
+}
+.menu ul{
+
+	list-style: none;
+}
+.menu ul li{
+display: inline-block;
+color:#2a5da3;
+margin: 5px 10px;
+}
+.menu ul li:hover{
+	color:white;
+}
+@media(min-width: 320px) and (max-width: 500px){
+p{
+	font-size: 10px;
+}
+h4{
+
+	font-size: 12px;
+}
+h1{
+
+	font-size: 20px;
+}
+.hero{
+
+background-color:  #0a2345;
+padding:15px 0px;
+text-align: center;
+
+}
+.header-til{
+
+padding-top: 50px;
+
+}
+.htext h1{
+
+	padding-top: 40px !important;
+}
+.power{
+     padding: 20px 0px;
+	background-color:#07162c ;
+}
+.feature{
+
+	background-color:#0a2345;
+	padding: 20px 0px;
+}
+.fet{
+
+margin-top: 10px; 
+padding: 20px 10px;
+}
+.fet h4{
+
+	font-size: 10px;
+}
+.image-f{
+height: 100%;
+width: 100%;
+display: block;
+
+}
+.imc{
+
+	height: 12%;
+	width: 20%;
+
+}
+.ftp{
+
+	text-align: center;
+	padding-top: 20px;
+}
+
+.menu ul li{
+display: inline-block;
+color:#2a5da3;
+margin: 3px 1px;
+font-size: 10px;
+}
+
+.prt{
+
+	margin-top: 20px;
+}
+
+
+.imr{
+
+	padding-top: 30px;
+}
+/*power section end*/
+.info{
+
+	background:url(../img/bg2.png)no-repeat top center;
+	background-size:cover;
+	padding: 50px;
+	text-align: center;
+}
+.int{
+
+	font-size: 18px;
+}
+.pht{
+
+	background-color:#030913;
+	padding: 50px 0px;
+	text-align: center;
+}
+}
+
+@media(min-width: 500.01px) and (max-width: 768){
+
+
+
+}
+@media(min-width:768.01px) and (max-width: 1200px){
+
+
+}
+
+@media(min-width: 1200.01px){
+
+
+}
